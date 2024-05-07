@@ -26,3 +26,23 @@
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px 20px; 
 }
+
+.form-destino{
+    background-color: rgb(193, 188, 188);
+}
+
+.pagina{
+    background-color:rgb(213, 244, 255);
+}
+
+.footer-img{
+    width: 10px;
+    height: 10px;
+    
+}
+
+.footer-pag{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
