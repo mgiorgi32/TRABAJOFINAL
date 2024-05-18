@@ -9,5 +9,5 @@ function mailto(){
     cuerpoCorreo += "Email: " + email + "\n";
     cuerpoCorreo += "Destino: " + destino + "\n";
     cuerpoCorreo += "Presupuesto: $" + presupuesto + "\n";
-    window.location.href = "mailto:marcosgiorgi2004@gmail.com?subject=Solicitud de Viaje&body=" + encodeURIComponent(cuerpoCorreo);
+    window.location.href = "mailto:codeninjas827@gmali.com?subject=Solicitud de Viaje&body=" + encodeURIComponent(cuerpoCorreo);
 }

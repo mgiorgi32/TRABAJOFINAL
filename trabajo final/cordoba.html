@@ -12,20 +12,20 @@
 <header>
     <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Titulo de la empresa</a>
+            <a class="navbar-brand" href="index.html">Titulo de la empresa</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contacto</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Ir a despegar</a>
+                  <a class="nav-link" href="https://www.despegar.com.ar/" target="_blank">Ir a despegar</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -54,7 +54,7 @@
         <div class="card-body">
           <h5 class="card-title centrado">Arroyo de los patos</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="Reserva.html" class="btn btn-primary">Reserva aqui</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@
         <div class="card-body">
           <h5 class="card-title centrado">Capilla del monte</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="Reserva.html" class="btn btn-primary">Reserva aqui</a>
         </div>
       </div>
     </div>
@@ -74,64 +74,10 @@
         <div class="card-body">
           <h5 class="card-title centrado">Villa General Belgrano</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="Reserva.html" class="btn btn-primary">Reserva aqui</a>
         </div>
       </div>
     </div>
-  </section>
-  <section class="row justify-content-center form-destino">
-    <form class="row g-3 needs-validation" novalidate>
-      <div class="col-md-12 position-relative">
-        <label for="validationTooltip01" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="validationTooltip01" required name="Nombre">
-        <div class="valid-tooltip">
-          Excelente!
-        </div>
-      </div>
-      <div class="col-md-12 position-relative">
-        <label for="validationTooltip02" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="validationTooltip02" required name="Apellido">
-        <div class="valid-tooltip">
-          Excelente!
-        </div>
-      </div>
-      <div class="col-md-12 position-relative">
-        <label for="inputEmail4" class="form-label">Email</label>
-        <div class="input-group has-validation">
-          <span class="input-group-text" id="inputEmail4">@</span>
-          <input type="email" name="Email" class="form-control" id="inputEmail4" aria-describedby="inputEmail4" required>
-          <div class="invalid-tooltip">
-            Ingrese un email.
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12 position-relative">
-        <label for="validationTooltip04" class="form-label">Ingrese el destino deseado</label>
-        <select class="form-select" id="validationTooltip04" required name="Destino">
-          <option selected disabled value="">...</option>
-          <option>Buenos Aires</option>
-          <option>Cordoba</option>
-          <option>Santa Cruz</option>
-          <option>Mendoza</option>
-        </select>
-        <div class="invalid-tooltip">
-          Ingrese un destino valido.
-        </div>
-      </div>
-      <div class="col-md-12 position-relative">
-        <label for="validationTooltip05" class="form-label">Ingrese su presupuesto</label>
-        <div class="input-group has-validation">
-          <span class="input-group-text" id="input-group-text">$</span>
-          <input type="text" class="form-control" id="validationTooltip05" name="Presupuesto" required>
-          <div class="invalid-tooltip">
-            Por favor ingrese un monto valido.
-          </div>
-        </div>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit" onclick="mailto()">Enviar formulario</button>
-      </div>
-    </form>
   </section>
   <footer class="footer-pag">
     <p>Titulo de la empresa</p>
@@ -139,20 +85,4 @@
     <p>&copy; 2024. Todos los derechos reservados.</p>
   </footer>
 </body>
-<script>
-  (() => {
-  'use strict'
-  const forms = document.querySelectorAll('.needs-validation')
-  Array.from(forms).forEach(form => {
-    form.addEventListener('submit', event => {
-      if (!form.checkValidity()) {
-        event.preventDefault()
-        event.stopPropagation()
-      }
-
-      form.classList.add('was-validated')
-    }, false)
-  })
-})()
-</script>
 </html>

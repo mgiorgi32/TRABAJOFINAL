@@ -42,7 +42,13 @@
 }
 
 .footer-pag{
-    background-color: black;
+    background-color: rgb(50, 49, 49);
     text-align: center;
     color: white;
+    padding: auto;
+}
+
+.cartas{
+ text-align: center;
+ align-items: center;
 }
